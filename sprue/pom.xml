@@ -85,41 +85,25 @@
 			<version>0.3.0</version>
 			<scope>provided</scope>
 		</dependency>
-		<!-- dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase-client</artifactId>
-			<version>1.0.0-cdh5.4.5</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.mortbay.jetty</groupId>
-					<artifactId>jetty</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.mortbay.jetty</groupId>
-					<artifactId>jetty-util</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.mortbay.jetty</groupId>
-					<artifactId>jsp-2.1</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.mortbay.jetty</groupId>
-					<artifactId>jsp-api-2.1</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.mortbay.jetty</groupId>
-					<artifactId>servlet-api-2.1</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>tomcat</groupId>
-					<artifactId>jasper-compiler</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>tomcat</groupId>
-					<artifactId>jasper-runtime</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency!-->
+		<!-- dependency> <groupId>org.apache.hbase</groupId> <artifactId>hbase-client</artifactId> 
+			<version>1.0.0-cdh5.4.5</version> <exclusions> <exclusion> <groupId>org.mortbay.jetty</groupId> 
+			<artifactId>jetty</artifactId> </exclusion> <exclusion> <groupId>org.mortbay.jetty</groupId> 
+			<artifactId>jetty-util</artifactId> </exclusion> <exclusion> <groupId>org.mortbay.jetty</groupId> 
+			<artifactId>jsp-2.1</artifactId> </exclusion> <exclusion> <groupId>org.mortbay.jetty</groupId> 
+			<artifactId>jsp-api-2.1</artifactId> </exclusion> <exclusion> <groupId>org.mortbay.jetty</groupId> 
+			<artifactId>servlet-api-2.1</artifactId> </exclusion> <exclusion> <groupId>tomcat</groupId> 
+			<artifactId>jasper-compiler</artifactId> </exclusion> <exclusion> <groupId>tomcat</groupId> 
+			<artifactId>jasper-runtime</artifactId> </exclusion> </exclusions> </dependency! -->
+		<dependency>
+			<groupId>org.apache.kafka</groupId>
+			<artifactId>kafka_2.10</artifactId>
+			<version>0.8.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.kafka</groupId>
+			<artifactId>kafka-clients</artifactId>
+			<version>0.8.2.1</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
